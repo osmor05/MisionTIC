@@ -1,0 +1,9 @@
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\obj\Debug\netstandard2.1\Ganaderia.App.Dominio.csprojAssemblyReference.cache
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\obj\Debug\netstandard2.1\Ganaderia.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\obj\Debug\netstandard2.1\Ganaderia.App.Dominio.AssemblyInfo.cs
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\obj\Debug\netstandard2.1\Ganaderia.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\bin\Debug\netstandard2.1\Ganaderia.App.Dominio.deps.json
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\bin\Debug\netstandard2.1\Ganaderia.App.Dominio.dll
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\bin\Debug\netstandard2.1\Ganaderia.App.Dominio.pdb
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\obj\Debug\netstandard2.1\Ganaderia.App.Dominio.dll
+C:\Users\osmor\OneDrive\Escritorio\WebGanadera\Ganaderia.App\Ganaderia.App.Dominio\obj\Debug\netstandard2.1\Ganaderia.App.Dominio.pdb
