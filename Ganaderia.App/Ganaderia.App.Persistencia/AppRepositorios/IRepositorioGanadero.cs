@@ -1,3 +1,4 @@
+using System;
 using System.Security.AccessControl;
 using Ganaderia.App.Dominio;
 using System.Collections.Generic;
@@ -9,5 +10,11 @@ namespace Ganaderia.App.Persistencia
         Ganadero AddGanadero(Ganadero ganadero); 
 
         IEnumerable<Ganadero> GetAllGanaderos();
+
+        Ganadero UpdateGanadero(Ganadero ganadero); 
+
+        Boolean DeleteGanadero(int idGanadero);
+
+        Ganadero GetGanadero(int idGanadero);        
     }
 }
