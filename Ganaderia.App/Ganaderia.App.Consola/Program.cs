@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using Ganaderia.App.Dominio;
 using Ganaderia.App.Persistencia;
 
@@ -10,14 +9,17 @@ namespace Ganaderia.App.Consola
     {
         private static IRepositorioGanadero _repoGanadero = new RepositorioGanadero(new Persistencia.AppContext());
 
+        private static IRepositorioVeterinario _repoVeterinario = new RepositorioVeterinario(new Persistencia.AppContext());
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             //AddGanadero();
             //GetAllGanaderos();
             //UpdateGanadero();
-            DeleteGanadero(3);
+            // DeleteGanadero(3);
             //GetGanadero(2);
+            AddVeterinario();
         }
 
         private static void AddGanadero()
@@ -78,6 +80,24 @@ namespace Ganaderia.App.Consola
         {
             var ganadero = _repoGanadero.GetGanadero(idGanadero);
             Console.WriteLine("El nombre del ganadero es: " + ganadero.Nombres);
-        } 
+        }
+        
+        private static void AddVeterinario()
+        {
+            var veterinario = new Veterinario
+            {
+                Nombres = "Alfredo",
+                Apellidos = "Morales Baquero",
+                NumeroTelefono = "3108674209",
+                Direccion = "Calle 8 7 45",
+                Correo = "amb@gmail.com",
+                Contrasena = "12345678",
+                Especialidad = "Médico General",
+                NumeroTarjeta = "123456"
+
+            };
+
+            _repoVeterinario.AddVeterinario(veterinario);
+        }
     }
 }
